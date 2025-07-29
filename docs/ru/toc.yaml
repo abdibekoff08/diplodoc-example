@@ -47,7 +47,6 @@ items:
         href: api/ui.md
 
   - name: Что нового
-    href: changelog/index.md
     items:
       - name: Версия 1.0 — Запуск платформы
         href: changelog/2025-04-05-v1.0.md
