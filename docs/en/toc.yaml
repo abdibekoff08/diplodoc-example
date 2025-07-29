@@ -11,47 +11,19 @@ items:
         href: guides/lifecycle.md
       - name: Security Guidelines
         href: guides/security.md
-      - name: mPaaS Integration
-        href: guides/mpaas-integration.md
-      - name: BCC Ecosystem
-        href: guides/bcc-ecosystem.md
 
   - name: Tutorials
     items:
       - name: Tax Payment
         href: tutorials/tax-payment.md
-      - name: Traffic Fines Payment
-        href: tutorials/traffic-fines.md
-      - name: Cinema Tickets
-        href: tutorials/cinema-tickets.md
-      - name: Credit Calculator
-        href: tutorials/credit-calculator.md
-      - name: QR Code Scanning
-        href: tutorials/qrcode-scan.md
 
   - name: API References
     items:
       - name: User (bcc.user)
         href: api/user.md
-      - name: Payment (bcc.pay)
-        href: api/pay.md
-      - name: Taxes (bcc.api.getTaxes)
-        href: api/taxes.md
-      - name: Fines (bcc.api.getFines)
-        href: api/fines.md
-      - name: Device (bcc.device)
-        href: api/device.md
-      - name: Storage (bcc.storage)
-        href: api/storage.md
-      - name: UI Components (bcc.ui)
-        href: api/ui.md
 
   - name: What's New
     items:
-      - name: Version 1.0 — Platform Launch
-        href: changelog/2025-04-05-v1.0.md
-      - name: Version 1.1 — Added faceVerify
-        href: changelog/2025-05-10-v1.1.md
       - name: Changelog Template
         href: changelog/template.md
 
@@ -59,27 +31,13 @@ items:
     items:
       - name: BCC CLI
         href: tools/cli.md
-      - name: BCC DevTools
-        href: tools/devtools.md
-      - name: Local Simulator
-        href: tools/simulator.md
 
   - name: Design System
     items:
       - name: Colors
         href: design/colors.md
-      - name: Buttons
-        href: design/buttons.md
-      - name: Forms
-        href: design/forms.md
-      - name: Typography
-        href: design/typography.md
 
   - name: Team & Processes
     items:
       - name: Platform Owners
         href: team/owners.md
-      - name: Mini Program Approval Process
-        href: team/approval-process.md
-      - name: Frequently Asked Questions (FAQ)
-        href: team/faq.md
