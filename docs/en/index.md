@@ -17,7 +17,7 @@ You can:
 1. Read the [Product Guides](/guides/what-is-mp) — learn how Mini Programs work
 2. Follow [Tutorials](/tutorials/tax-payment) — build your first feature
 3. Explore the [API References](/api/user) — integrate with BCC services
-4. Check [What's New](/changelog/2025-04-05-v1.0) — stay updated on platform changes
+4. Check [What's New](/changelog/template) — stay updated on platform changes
 
 ---
 
