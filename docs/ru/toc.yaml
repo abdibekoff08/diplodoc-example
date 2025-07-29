@@ -1,86 +1,86 @@
-title: BCC Developer Portal
+title: Developer Portal BCC
 items:
-  - name: Home
+  - name: Главная
     href: index.md
 
-  - name: Product Guides
+  - name: Руководства
     items:
-      - name: What is a Mini Program?
+      - name: Что такое Mini Programs?
         href: guides/what-is-mp.md
-      - name: Development Lifecycle
+      - name: Жизненный цикл разработки
         href: guides/lifecycle.md
-      - name: Security Guidelines
+      - name: Правила безопасности
         href: guides/security.md
-      - name: mPaaS Integration
+      - name: Интеграция с mPaaS
         href: guides/mpaas-integration.md
-      - name: BCC Ecosystem
+      - name: Экосистема BCC
         href: guides/bcc-ecosystem.md
 
-  - name: Tutorials
+  - name: Обучающие материалы
     items:
-      - name: Tax Payment
+      - name: Оплата налогов
         href: tutorials/tax-payment.md
-      - name: Traffic Fines Payment
+      - name: Оплата штрафов
         href: tutorials/traffic-fines.md
-      - name: Cinema Tickets
+      - name: Билеты в кино
         href: tutorials/cinema-tickets.md
-      - name: Credit Calculator
+      - name: Кредитный калькулятор
         href: tutorials/credit-calculator.md
-      - name: QR Code Scanning
+      - name: Сканирование QR-кода
         href: tutorials/qrcode-scan.md
 
-  - name: API References
+  - name: Справочник API
     items:
-      - name: User (bcc.user)
+      - name: Пользователь (bcc.user)
         href: api/user.md
-      - name: Payment (bcc.pay)
+      - name: Оплата (bcc.pay)
         href: api/pay.md
-      - name: Taxes (bcc.api.getTaxes)
+      - name: Налоги (bcc.api.getTaxes)
         href: api/taxes.md
-      - name: Fines (bcc.api.getFines)
+      - name: Штрафы (bcc.api.getFines)
         href: api/fines.md
-      - name: Device (bcc.device)
+      - name: Устройство (bcc.device)
         href: api/device.md
-      - name: Storage (bcc.storage)
+      - name: Хранилище (bcc.storage)
         href: api/storage.md
-      - name: UI Components (bcc.ui)
+      - name: UI-компоненты (bcc.ui)
         href: api/ui.md
 
-  - name: What's New
+  - name: Что нового
     href: changelog/index.md
     items:
-      - name: Version 1.0 — Platform Launch
+      - name: Версия 1.0 — Запуск платформы
         href: changelog/2025-04-05-v1.0.md
-      - name: Version 1.1 — Added faceVerify
+      - name: Версия 1.1 — Добавлен faceVerify
         href: changelog/2025-05-10-v1.1.md
-      - name: Changelog Template
+      - name: Шаблон описания версии
         href: changelog/template.md
 
-  - name: Tools
+  - name: Инструменты
     items:
       - name: BCC CLI
         href: tools/cli.md
       - name: BCC DevTools
         href: tools/devtools.md
-      - name: Local Simulator
+      - name: Локальный симулятор
         href: tools/simulator.md
 
-  - name: Design System
+  - name: Дизайн-система
     items:
-      - name: Colors
+      - name: Цвета
         href: design/colors.md
-      - name: Buttons
+      - name: Кнопки
         href: design/buttons.md
-      - name: Forms
+      - name: Формы
         href: design/forms.md
-      - name: Typography
+      - name: Типографика
         href: design/typography.md
 
-  - name: Team & Processes
+  - name: Процессы и команда
     items:
-      - name: Platform Owners
+      - name: Владельцы платформы
         href: team/owners.md
-      - name: Mini Program Approval Process
+      - name: Процесс утверждения Mini Program
         href: team/approval-process.md
-      - name: Frequently Asked Questions (FAQ)
+      - name: Частые вопросы (FAQ)
         href: team/faq.md
