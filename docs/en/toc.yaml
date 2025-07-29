@@ -47,7 +47,6 @@ items:
         href: api/ui.md
 
   - name: What's New
-    href: changelog/index.md
     items:
       - name: Version 1.0 — Platform Launch
         href: changelog/2025-04-05-v1.0.md
