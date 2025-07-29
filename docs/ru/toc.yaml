@@ -11,47 +11,19 @@ items:
         href: guides/lifecycle.md
       - name: Правила безопасности
         href: guides/security.md
-      - name: Интеграция с mPaaS
-        href: guides/mpaas-integration.md
-      - name: Экосистема BCC
-        href: guides/bcc-ecosystem.md
 
   - name: Обучающие материалы
     items:
       - name: Оплата налогов
         href: tutorials/tax-payment.md
-      - name: Оплата штрафов
-        href: tutorials/traffic-fines.md
-      - name: Билеты в кино
-        href: tutorials/cinema-tickets.md
-      - name: Кредитный калькулятор
-        href: tutorials/credit-calculator.md
-      - name: Сканирование QR-кода
-        href: tutorials/qrcode-scan.md
 
   - name: Справочник API
     items:
       - name: Пользователь (bcc.user)
         href: api/user.md
-      - name: Оплата (bcc.pay)
-        href: api/pay.md
-      - name: Налоги (bcc.api.getTaxes)
-        href: api/taxes.md
-      - name: Штрафы (bcc.api.getFines)
-        href: api/fines.md
-      - name: Устройство (bcc.device)
-        href: api/device.md
-      - name: Хранилище (bcc.storage)
-        href: api/storage.md
-      - name: UI-компоненты (bcc.ui)
-        href: api/ui.md
 
   - name: Что нового
     items:
-      - name: Версия 1.0 — Запуск платформы
-        href: changelog/2025-04-05-v1.0.md
-      - name: Версия 1.1 — Добавлен faceVerify
-        href: changelog/2025-05-10-v1.1.md
       - name: Шаблон описания версии
         href: changelog/template.md
 
@@ -59,27 +31,13 @@ items:
     items:
       - name: BCC CLI
         href: tools/cli.md
-      - name: BCC DevTools
-        href: tools/devtools.md
-      - name: Локальный симулятор
-        href: tools/simulator.md
 
   - name: Дизайн-система
     items:
       - name: Цвета
         href: design/colors.md
-      - name: Кнопки
-        href: design/buttons.md
-      - name: Формы
-        href: design/forms.md
-      - name: Типографика
-        href: design/typography.md
 
   - name: Процессы и команда
     items:
       - name: Владельцы платформы
         href: team/owners.md
-      - name: Процесс утверждения Mini Program
-        href: team/approval-process.md
-      - name: Частые вопросы (FAQ)
-        href: team/faq.md
