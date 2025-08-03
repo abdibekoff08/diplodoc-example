@@ -1,10 +1,55 @@
-title: Documentation Template
-links:
-  - title: About
-    href: about.md
-  - title: Diplodoc page on index page
-    href: page.md
-  - title: YFM Structure on index page
-    href: anotherpage.md
-  - title: Sub-section on index page
-    href: sub-section/
+title: Main Page
+layout: landing
+
+sections:
+  - title: Welcome
+    type: hero
+    content: |
+      # Documentation
+
+      Mini Programs are sub-applications that run inside the mobile app. You can access various services and features on Mini Programs without the need to install additional applications.
+
+      Discover product guides, tutorials, and references to get started.
+
+      See what's changed, new, and deleted of the latest release version in What's New.
+
+  - title: Key Sections
+    type: cards
+    content:
+      - title: Getting Started
+        description: Learn how to onboard and create your first Mini Program.
+        icon: rocket
+        href: /getting-started/tech_merchant_get_started.md
+
+      - title: Lifecycle
+        description: From creation to release — manage every stage of your Mini Program.
+        icon: cycle
+        href: /mp_lifecycle/mini-program.md
+
+      - title: Developer Guide
+        description: Full API, component, and framework references for developers.
+        icon: code
+        href: /mpdev/developer-guide.md
+
+      - title: Platform Management
+        description: Use the console to manage apps, templates, analytics, and more.
+        icon: dashboard
+        href: /platform/mini-program.md
+
+      - title: UX & Design
+        description: Design principles, UI kits, and downloadable resources.
+        icon: brush
+        href: /design/overview.md
+
+      - title: Legal & Compliance
+        description: Terms, SLA, data policies, and compliance requirements.
+        icon: file-text
+        href: /legal/terms_service.md
+
+  - title: What's New
+    type: list
+    content:
+      - title: Latest Release Notes
+        description: See what's changed, added, or deprecated in the latest version.
+        href: /history/release-note.md
+        badge: New
