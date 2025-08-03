@@ -1,43 +1,143 @@
-title: Developer Portal BCC
+title: Документация
+href: index.yaml
+
 items:
-  - name: Главная
-    href: index.md
-
-  - name: Руководства
+  - name: О платформе
     items:
-      - name: Что такое Mini Programs?
-        href: guides/what-is-mp.md
-      - name: Жизненный цикл разработки
-        href: guides/lifecycle.md
-      - name: Правила безопасности
-        href: guides/security.md
+      - name: О Mini Programs
+        href: about/index.md
+      - name: Глоссарий
+        href: glossary/index.md
+      - name: Обзор платформы
+        href: platform/overview.md
+      - name: Поддержка
+        href: support/index.md
 
-  - name: Обучающие материалы
+  - name: Начало работы
     items:
-      - name: Оплата налогов
-        href: tutorials/tax-payment.md
+      - name: Руководство для технических мерчантов
+        href: getting-started/getting-started-guide.md
+      - name: Для начинающих (нетехнические мерчанты)
+        href: getting-started/non_tech_merchant_get_started.md
+      - name: Онбординг для технических мерчантов
+        href: getting-started/tech_merchant_onboarding.md
+      - name: Онбординг для нетехнических мерчантов
+        href: getting-started/non_tech_merchant_onboarding.md
 
-  - name: Справочник API
+  - name: Жизненный цикл
     items:
-      - name: Пользователь (bcc.user)
-        href: api/user.md
+      - name: Обзор жизненного цикла
+        href: mp_lifecycle/mini-program.md
+      - name: Создание Mini Program
+        href: mp_lifecycle/create.md
+      - name: Настройка
+        href: mp_lifecycle/configure.md
+      - name: Загрузка кода
+        href: mp_lifecycle/upload.md
+      - name: Релиз
+        href: mp_lifecycle/release.md
+      - name: Генерация QR-кода
+        href: mp_lifecycle/generate-qrcode.md
+      - name: Преобразование HTML5-приложения
+        href: mp_lifecycle/transform-html5.md
+      - name: Управление участниками
+        href: mp_lifecycle/add_member.md
+      - name: Отключение Mini Program
+        href: mp_lifecycle/offline.md
+      - name: Удаление Mini Program
+        href: mp_lifecycle/delete.md
+
+  - name: Руководство для разработчиков
+    items:
+      - name: Обзор
+        href: mpdev/developer-guide.md
+      - name: Обзор фреймворка
+        href: mpdev/component_overview.md
+      - name: Расширенные компоненты
+        href: mpdev/extended_component_overview.md
+      - name: Обзор SDK
+        href: mpdev/sdk_overview.md
+      - name: Руководство по JSBridge
+        href: mpdev/jsbridge-guide.md
+      - name: Обзор API
+        href: mpdev/api_overview.md
+      - name: Справочник API
+        href: mpdev/api_api-reference.md
+      - name: Справочник компонентов
+        href: mpdev/component_component-reference.md
+
+  - name: Управление платформой
+    items:
+      - name: Обзор консоли
+        href: platform/mini-program.md
+      - name: Рабочая область
+        href: platform/workspace.md
+      - name: Авторизация
+        href: platform/authorization.md
+      - name: Управление приложениями
+        href: platform/apps.md
+      - name: Управление функциями
+        href: platform/feature.md
+      - name: Уведомления
+        href: platform/notifications.md
+      - name: Мониторинг качества
+        href: platform/quality_alert.md
+      - name: Аналитика
+        href: platform/analytics.md
+      - name: Оценка пользователей
+        href: platform/rating.md
+      - name: Контроль усталости
+        href: platform/set-fatigue.md
+      - name: Механизм обновлений
+        href: platform/update_mechanism.md
+      - name: Пользовательские переменные
+        href: platform/custom-variables.md
+      - name: Шаблоны
+        items:
+          - name: Управление шаблонами
+            href: platform/manage-templates.md
+          - name: Создание кастомного шаблона
+            href: platform/create-customized-templates.md
+      - name: Процесс утверждения
+        href: platform/approval.md
+      - name: Чёрный список Mini Program
+        href: platform/mini-program-blacklist.md
+
+  - name: UX и дизайн
+    items:
+      - name: Обзор дизайна
+        href: design/overview.md
+      - name: Руководство по дизайну
+        href: design/design-guidelines.md
+      - name: Ресурсы для скачивания
+        href: design/resource-download.md
+
+  - name: Юридические документы
+    items:
+      - name: Условия использования
+        href: legal/terms_service.md
+      - name: Дополнение по обработке данных
+        href: legal/data_process_addendum.md
+      - name: Политика соответствия
+        href: legal/compliance_policy.md
+      - name: SLA
+        href: legal/sla.md
 
   - name: Что нового
     items:
-      - name: Шаблон описания версии
-        href: changelog/template.md
+      - name: История обновлений
+        href: history/release-note.md
 
-  - name: Инструменты
+  - name: Поддержка
     items:
-      - name: BCC CLI
-        href: tools/cli.md
+      - name: Частые вопросы (FAQ)
+        href: mpfaq/common.md
+      - name: Обучающие видео
+        href: platform/how-to-videos.md
+      - name: Переход в консоль
+        href: platform/navigate-to-operation-platform.md
 
-  - name: Дизайн-система
+  - name: Docs AI
     items:
-      - name: Цвета
-        href: design/colors.md
-
-  - name: Процессы и команда
-    items:
-      - name: Владельцы платформы
-        href: team/owners.md
+      - name: Руководство по использованию чат-бота
+        href: docs_ai/user_guide.md
