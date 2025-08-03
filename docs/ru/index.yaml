@@ -1,0 +1,47 @@
+title: Документация
+layout: landing
+
+sections:
+  - title: Добро пожаловать
+    type: hero
+    content: |
+      # Документация
+
+      Mini Programs — это встроенные приложения, запускаемые внутри мобильного приложения. Вы можете получать доступ к различным сервисам и функциям без необходимости устанавливать отдельные приложения.
+
+      Ознакомьтесь с руководствами, примерами и справочниками, чтобы начать работу.
+
+      Следите за обновлениями в разделе «Что нового».
+
+  - title: Основные разделы
+    type: cards
+    content:
+      - title: Начало работы
+        description: Руководства для технических и нетехнических мерчантов.
+        icon: rocket
+        href: /getting-started/getting-started-guide.md
+
+      - title: Жизненный цикл
+        description: От создания до релиза и отключения Mini Program.
+        icon: cycle
+        href: /mp_lifecycle/mini-program.md
+
+      - title: Руководство для разработчиков
+        description: Компоненты, API, SDK, JSBridge — всё для разработки.
+        icon: code
+        href: /mpdev/developer-guide.md
+
+      - title: Управление платформой
+        description: Консоль, аналитика, шаблоны, уведомления.
+        icon: dashboard
+        href: /platform/mini-program.md
+
+      - title: UX и дизайн
+        description: Принципы дизайна, UI-киты, руководства.
+        icon: brush
+        href: /design/overview.md
+
+      - title: Docs AI
+        description: Чат-бот для быстрых ответов по документации.
+        icon: robot
+        href: /docs_ai/user_guide.md
