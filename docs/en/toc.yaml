@@ -1,43 +1,138 @@
-title: BCC Developer Portal
+title: Documentation Mini Programs
+href: index.yaml
+
 items:
-  - name: Home
-    href: index.md
-
-  - name: Product Guides
+  - name: About
     items:
-      - name: What is a Mini Program?
-        href: guides/what-is-mp.md
-      - name: Development Lifecycle
-        href: guides/lifecycle.md
-      - name: Security Guidelines
-        href: guides/security.md
+      - name: About Mini Programs
+        href: about/index.md
+      - name: Glossary
+        href: glossary/index.md
+      - name: Platform Overview
+        href: platform/overview.md
+      - name: Support
+        href: support/index.md
 
-  - name: Tutorials
+  - name: Getting Started
     items:
-      - name: Tax Payment
-        href: tutorials/tax-payment.md
+      - name: For Technical Merchants
+        href: getting-started/tech_merchant_get_started.md
+      - name: For Non-Technical Merchants
+        href: getting-started/non_tech_merchant_get_started.md
+      - name: Technical Merchant Onboarding
+        href: getting-started/tech_merchant_onboarding.md
+      - name: Non-Technical Merchant Onboarding
+        href: getting-started/non_tech_merchant_onboarding.md
 
-  - name: API References
+  - name: Lifecycle
     items:
-      - name: User (bcc.user)
-        href: api/user.md
+      - name: Overview
+        href: mp_lifecycle/mini-program.md
+      - name: Create a Mini Program
+        href: mp_lifecycle/create.md
+      - name: Configure Settings
+        href: mp_lifecycle/configure.md
+      - name: Upload Code
+        href: mp_lifecycle/upload.md
+      - name: Release to Users
+        href: mp_lifecycle/release.md
+      - name: Generate QR Code
+        href: mp_lifecycle/generate-qrcode.md
+      - name: Transform HTML5 App
+        href: mp_lifecycle/transform-html5.md
+      - name: Manage Members
+        href: mp_lifecycle/add_member.md
+      - name: Offline a Mini Program
+        href: mp_lifecycle/offline.md
+      - name: Delete a Mini Program
+        href: mp_lifecycle/delete.md
+
+  - name: Developer Guide
+    items:
+      - name: Overview
+        href: mpdev/developer-guide.md
+      - name: Framework Overview
+        href: mpdev/component_overview.md
+      - name: Extended Components
+        href: mpdev/extended_component_overview.md
+      - name: SDK Overview
+        href: mpdev/sdk_overview.md
+      - name: JSBridge Guide
+        href: mpdev/jsbridge-guide.md
+      - name: API Overview
+        href: mpdev/api_overview.md
+      - name: API Reference
+        href: mpdev/api_api-reference.md
+      - name: Component Reference
+        href: mpdev/component_component-reference.md
+
+  - name: Platform Management
+    items:
+      - name: Console Overview
+        href: platform/mini-program.md
+      - name: Workspace
+        href: platform/workspace.md
+      - name: Authorization
+        href: platform/authorization.md
+      - name: App Management
+        href: platform/apps.md
+      - name: Feature Management
+        href: platform/feature.md
+      - name: Notifications
+        href: platform/notifications.md
+      - name: Quality Monitoring
+        href: platform/quality_alert.md
+      - name: Analytics
+        href: platform/analytics.md
+      - name: User Rating
+        href: platform/rating.md
+      - name: Fatigue Control
+        href: platform/set-fatigue.md
+      - name: Update Mechanism
+        href: platform/update_mechanism.md
+      - name: Custom Variables
+        href: platform/custom-variables.md
+      - name: Templates
+        items:
+          - name: Manage Templates
+            href: platform/manage-templates.md
+          - name: Create Custom Template
+            href: platform/create-customized-templates.md
+      - name: Approval Process
+        href: platform/approval.md
+      - name: Mini Program Blacklist
+        href: platform/mini-program-blacklist.md
+
+  - name: UX & Design
+    items:
+      - name: Design Overview
+        href: design/overview.md
+      - name: UI Guidelines
+        href: design/ux-design-guidelines.md
+      - name: Resource Downloads
+        href: design/resource-download.md
+
+  - name: Legal & Compliance
+    items:
+      - name: Terms of Service
+        href: legal/terms_service.md
+      - name: Data Processing Addendum
+        href: legal/data_process_addendum.md
+      - name: Compliance Policy
+        href: legal/compliance_policy.md
+      - name: SLA
+        href: legal/sla.md
 
   - name: What's New
     items:
-      - name: Changelog Template
-        href: changelog/template.md
+      - name: Release Notes
+        href: history/release-note.md
 
-  - name: Tools
+  - name: Support
     items:
-      - name: BCC CLI
-        href: tools/cli.md
-
-  - name: Design System
-    items:
-      - name: Colors
-        href: design/colors.md
-
-  - name: Team & Processes
-    items:
-      - name: Platform Owners
-        href: team/owners.md
+      - name: FAQ
+        href: mpfaq/common.md
+      - name: How-to Videos
+        href: platform/how-to-videos.md
+      - name: Navigate to Console
+        href: platform/navigate-to-operation-platform.md
